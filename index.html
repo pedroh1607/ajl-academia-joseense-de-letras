@@ -148,7 +148,7 @@
             </div>
             <input type="text" name="rg" placeholder="Digite seu RG" required /><br />
             <input type="tel" name="cell" id="celular" placeholder="(99) 99999-9999" maxlength="15" /><br />
-             <input type="text" name="endereco" placeholder="Digite seu endereço completo" required /><br />
+            <input type="text" name="endereco" placeholder="Digite seu endereço completo" required /><br />
             <input type="email" name="email" placeholder="Digite seu Email" required /><br />
             <label for="escolaridade">Nível de Escolaridade:</label>
               <select id="escolaridade" name="escolaridade" required>
@@ -160,7 +160,7 @@
               </select><br />
               <label for="escolaridade">Nível de Escolaridade:</label>
               <select id="curso_superior" name="curso_superior" required>
-                <option value="" disabled selected>Selecione seu nível</option>
+                <option value="Nível_escolaridade" disabled selected>Selecione seu nível</option>
                 <option value="Letras (Português, Literaturas, Linguística)">Letras (Português, Literaturas, Linguística)</option>
                 <option value="Jornalismo">Jornalismo</option>
                 <option value="Comunicação Social">Comunicação Social</option>
@@ -175,7 +175,7 @@
             <textarea name="obras" placeholder="Digite sua obras publicas com nome e ano de lançamento" required></textarea><br />
             <button class="submit_button" type="submit">Enviar</button>
           </form>
-          <ul id="mensagens"></ul>
+          <!-- <ul id="mensagens"></ul> -->
       </section>
     </main>
     <!-- <script>
@@ -237,7 +237,7 @@
       } 
     });
   </script> -->
-  <script>
+  <!-- <script>
   document.getElementById('celular').addEventListener('input', function (e) {
     let v = e.target.value.replace(/\D/g, ''); // só números
     if (v.length > 11) v = v.slice(0, 11); // máximo 11 dígitos
@@ -248,7 +248,7 @@
 
     e.target.value = v;
   });
-  </script>
+  </script> -->
     <!-- Script para navegação SPA -->
     <script src="js/script.js"></script>
     <script src="js/tranfer.js"></script>

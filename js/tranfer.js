@@ -25,13 +25,29 @@ document.getElementById("meuFormulario").addEventListener("submit", async functi
   try {
     const res = await fetch(URL_API, {
       method: "POST",
-      body: formData
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        nome: form.nome.value,
+        sobre_nome: form.sobre_nome.value,
+        pseudonimo: form.pseudonimo.value,
+        nascimento: form.nascimento.value,
+        rg: form.rg.value,
+        cell: form.cell.value,
+        endereco: form.endereco.value,
+        email: form.email.value,
+        escolaridade: form.escolaridade.value,
+        curso_superior: form.curso_superior.value,
+        biografia: form.biografia.value,
+        obras: form.obras.value
+      })
     });
 
     const texto = await res.text();
     alert("Resposta do servidor: " + texto);
     form.reset();
-    carregarMensagens();
+    // carregarMensagens();
   } catch (err) {
     console.error("Erro:", err);
     alert("Erro ao enviar. Verifique o console.");
@@ -47,40 +63,39 @@ celular.addEventListener('input', function (e) {
   v = v.replace(/(\d{5})(\d)/, '$1-$2');
   e.target.value = v;
 });
+// // Função de carregamento de mensagens (caso queira listar os cadastros na página)
+// async function carregarMensagens() {
+//   try {
+//     const res = await fetch(URL_API);
+//     const dados = await res.json();
 
-// Função de carregamento de mensagens (caso queira listar os cadastros na página)
-async function carregarMensagens() {
-  try {
-    const res = await fetch(URL_API);
-    const dados = await res.json();
+//     const lista = document.getElementById("mensagens");
+//     lista.innerHTML = "";
 
-    const lista = document.getElementById("mensagens");
-    lista.innerHTML = "";
+//     dados.slice(1).reverse().forEach(linha => {
+//       const [
+//         nome,
+//         sobre_nome,
+//         pseudonimo,
+//         nascimento,
+//         rg,
+//         cell,
+//         endereco,
+//         email,
+//         escolaridade,
+//         curso_superior,
+//         biografia,
+//         obras
+//       ] = linha;
 
-    dados.slice(1).reverse().forEach(linha => {
-      const [
-        nome,
-        sobre_nome,
-        pseudonimo,
-        nascimento,
-        rg,
-        cell,
-        endereco,
-        email,
-        escolaridade,
-        curso_superior,
-        biografia,
-        obras
-      ] = linha;
+//       const li = document.createElement("li");
+//       li.textContent = `${nome} ${sobre_nome} (pseudônimo: ${pseudonimo}) - ${email} - ${curso_superior} - ${escolaridade}`;
+//       lista.appendChild(li);
+//     });
+//   } catch (err) {
+//     console.warn("Erro ao carregar mensagens:", err);
+//   }
+// }
 
-      const li = document.createElement("li");
-      li.textContent = `${nome} ${sobre_nome} (pseudônimo: ${pseudonimo}) - ${email} - ${curso_superior} - ${escolaridade}`;
-      lista.appendChild(li);
-    });
-  } catch (err) {
-    console.warn("Erro ao carregar mensagens:", err);
-  }
-}
-
-// Carrega mensagens ao iniciar
-carregarMensagens();
+// // Carrega mensagens ao iniciar
+// carregarMensagens();
