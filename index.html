@@ -64,6 +64,9 @@
       <button onclick="mostrarPagina('contato', event)" class="button">
         <span class="button-border">Contato</span>
       </button>
+      <button onclick="mostrarPagina('cadastro', event)" class="button">
+        <span class="button-border">Cadastro</span>
+      </button>
       <footer>
         <div class="nav-footer" style="position:absolute;bottom:10px ;left:10px;font-size: 0.8em;color: #d1cfc7;opacity: 0.7;">
            © 2025 Academia Josense de Letras
@@ -98,16 +101,7 @@
         <h1>Bem-vindo à Academia Josense de Letras</h1>
         <p>Aqui vai o conteúdo da página inicial.</p>
 
-          <h1>Enviar mensagem</h1>
-  <form id="meuFormulario">
-    <input type="text" name="nome" placeholder="Seu nome" required /><br />
-    <input type="email" name="email" placeholder="Seu email" required /><br />
-    <textarea name="mensagem" placeholder="Sua mensagem" required></textarea><br />
-    <button type="submit">Enviar</button>
-  </form>
-
-  <h2>Mensagens recebidas:</h2>
-  <ul id="mensagens"></ul>
+     
       </section>
 
       <section id="academicos" class="pagina">
@@ -139,53 +133,126 @@
         <h1>Contato</h1>
         <p>Endereço, e-mail, telefone, redes sociais e formulário.</p>
       </section>
-    </main>
-    <!-- Script para navegação SPA -->
-     <script>
-         const URL_API = "https://script.google.com/macros/s/AKfycby_6sy5_uecqGnp_y1ooNuBjKGWiJsb1KWOPQb90BJ_7ymDoaEwSruP9wgDdhU5CSVcYw/exec";
+       <section id="cadastro" class="pagina">
+        <h1>cadastrp</h1>
+        <p>Endereço, e-mail, telefone, redes sociais e formulário.</p>
 
-  
+          <h1>Enviar mensagem</h1>
+          <form id="meuFormulario">
+            <input type="text" name="nome" placeholder="Digite seu nome" required /><br />
+            <input type="text" name="sobre_nome" placeholder="Digite seu sobrenome" /><br />
+            <input type="text" name="pseudonimo" placeholder="Digite seu pseudônimo  " required /><br />
+            <div class="niver_date">
+              <label for="nascimento">Digite sua data de nascimento</label><br/>
+              <input type="date" id="nascimento" name="nascimento">
+            </div>
+            <input type="text" name="rg" placeholder="Digite seu RG" required /><br />
+            <input type="tel" name="cell" id="celular" placeholder="(99) 99999-9999" maxlength="15" /><br />
+             <input type="text" name="endereco" placeholder="Digite seu endereço completo" required /><br />
+            <input type="email" name="email" placeholder="Digite seu Email" required /><br />
+            <label for="escolaridade">Nível de Escolaridade:</label>
+              <select id="escolaridade" name="escolaridade" required>
+                <option value="" disabled selected>Selecione seu nível</option>
+                <option value="fundamental">Ensino Fundamental</option>
+                <option value="medio">Ensino Médio</option>
+                <option value="superior">Ensino Superior</option>
+                <option value="pos_graduacao">Pós-graduação</option>
+              </select><br />
+              <label for="escolaridade">Nível de Escolaridade:</label>
+              <select id="curso_superior" name="curso_superior" required>
+                <option value="" disabled selected>Selecione seu nível</option>
+                <option value="Letras (Português, Literaturas, Linguística)">Letras (Português, Literaturas, Linguística)</option>
+                <option value="Jornalismo">Jornalismo</option>
+                <option value="Comunicação Social">Comunicação Social</option>
+                <option value="Tradução e Interpretação">Tradução e Interpretação</option>
+                <option value="Pedagogia (com ênfase em Língua Portuguesa)">Pedagogia (com ênfase em Língua Portuguesa)</option>
+                <option value="História (focado em História da Literatura ou Cultura)">História (focado em História da Literatura ou Cultura)</option>
+                <option value="Filosofia (com foco em Linguagem e Pensamento)">Filosofia (com foco em Linguagem e Pensamento)</option>
+                <option value="Artes (especialmente Artes Cênicas ou Literatura Dramática)">Artes (especialmente Artes Cênicas ou Literatura Dramática)</option>
+                <option value="Biblioteconomia">Biblioteconomia</option>
+              </select><br />
+            <textarea name="biografia" placeholder="Digite sua biografia" required></textarea><br />
+            <textarea name="obras" placeholder="Digite sua obras publicas com nome e ano de lançamento" required></textarea><br />
+            <button class="submit_button" type="submit">Enviar</button>
+          </form>
+          <ul id="mensagens"></ul>
+      </section>
+    </main>
+    <!-- <script>
+        const URL_API = "https://script.google.com/macros/s/AKfycbxeZJ4Z-YvcDmkva41tdAwHaNe1Eg38Iijn6sLXS2gBNWgwrDzt15vhN2Q3G7wjQMfYEg/exec"; // Substitua aqui
+
     document.getElementById("meuFormulario").addEventListener("submit", async function (e) {
       e.preventDefault();
       const form = e.target;
       const dados = {
         nome: form.nome.value,
+        sobre_nome: form.sobre_nome.value,
+        pseudonimo: form.pseudonimo.value,
+        nascimento: form.nascimento.value,
+        rg: form.rg.value,
+        cell: form.cell.value,
+        endereco: form.endereco.value,
         email: form.email.value,
-        mensagem: form.mensagem.value
+        escolaridade: form.escolaridade.value,
+        curso_superior: form.curso_superior.value,
+        biografia: form.biografia.value,
+        obras: form.obras.value
       };
 
-      const res = await fetch(URL_API, {
+      await fetch(URL_API, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json"
+        },
+        mode: "no-cors", // <-- adicione esta linha
         body: JSON.stringify(dados)
       });
+      const formData = new FormData();
+      formData.append("nome", form.nome.value);
+      formData.append("sobre_nome", form.sobre_nome.value);
+      formData.append("pseudonimo", form.pseudonimo.value);
+      formData.append("nascimento", form.nascimento.value);
+      formData.append("rg", form.rg.value);
+      formData.append("cell", form.cell.value);
+      formData.append("endereco", form.endereco.value);
+      formData.append("email", form.email.value);
+      formData.append("escolaridade", form.escolaridade.value);
+      formData.append("curso_superior", form.curso_superior.value);
+      formData.append("biografia", form.biografia.value);
+      formData.append("obras", form.obras.value);
 
-      const texto = await res.text();
-      alert("Resposta do servidor: " + texto);
-      form.reset();
-      carregarMensagens(); // atualiza a lista após envio
+      try {
+        const res = await fetch(URL_API, {
+          method: "POST",
+          body: formData
+        });
+
+        const texto = await res.text();
+        alert("Resposta do servidor: " + texto);
+        form.reset();
+        carregarMensagens();
+      } catch (err) {
+        console.error("Erro:", err);
+        alert("Erro ao enviar. Verifique o console.");
+      } 
     });
+  </script> -->
+  <script>
+  document.getElementById('celular').addEventListener('input', function (e) {
+    let v = e.target.value.replace(/\D/g, ''); // só números
+    if (v.length > 11) v = v.slice(0, 11); // máximo 11 dígitos
 
-    // Carregar dados (GET)
-    async function carregarMensagens() {
-      const res = await fetch(URL_API);
-      const dados = await res.json();
+    // máscara: (99) 99999-9999
+    v = v.replace(/^(\d{2})(\d)/g, '($1) $2');
+    v = v.replace(/(\d{5})(\d)/, '$1-$2');
 
-      const lista = document.getElementById("mensagens");
-      lista.innerHTML = "";
-
-      dados.slice(1).reverse().forEach(([nome, email, mensagem]) => {
-        const li = document.createElement("li");
-        li.textContent = `${nome} (${email}): ${mensagem}`;
-        lista.appendChild(li);
-      });
-    }
-      print("Carregando mensagens...");
-    // Carrega mensagens ao abrir a página
-    carregarMensagens();
-     </script>
-    <script src="js/integrest.j"></script>
+    e.target.value = v;
+  });
+  </script>
+    <!-- Script para navegação SPA -->
     <script src="js/script.js"></script>
+    <script src="js/tranfer.js"></script>
+    
     
   </body>
 </html>
