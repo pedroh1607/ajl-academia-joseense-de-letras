@@ -97,6 +97,17 @@
       <section id="inicio" class="pagina ativa">
         <h1>Bem-vindo à Academia Josense de Letras</h1>
         <p>Aqui vai o conteúdo da página inicial.</p>
+
+          <h1>Enviar mensagem</h1>
+  <form id="meuFormulario">
+    <input type="text" name="nome" placeholder="Seu nome" required /><br />
+    <input type="email" name="email" placeholder="Seu email" required /><br />
+    <textarea name="mensagem" placeholder="Sua mensagem" required></textarea><br />
+    <button type="submit">Enviar</button>
+  </form>
+
+  <h2>Mensagens recebidas:</h2>
+  <ul id="mensagens"></ul>
       </section>
 
       <section id="academicos" class="pagina">
@@ -130,6 +141,51 @@
       </section>
     </main>
     <!-- Script para navegação SPA -->
+     <script>
+         const URL_API = "https://script.google.com/macros/s/SEU_SCRIPT_URL/exec"; // Substitua aqui
+
+    // Enviar dados (POST)
+    document.getElementById("meuFormulario").addEventListener("submit", async function (e) {
+      e.preventDefault();
+      const form = e.target;
+      const dados = {
+        nome: form.nome.value,
+        email: form.email.value,
+        mensagem: form.mensagem.value
+      };
+
+      const res = await fetch(URL_API, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(dados)
+      });
+
+      const texto = await res.text();
+      alert("Resposta do servidor: " + texto);
+      form.reset();
+      carregarMensagens(); // atualiza a lista após envio
+    });
+
+    // Carregar dados (GET)
+    async function carregarMensagens() {
+      const res = await fetch(URL_API);
+      const dados = await res.json();
+
+      const lista = document.getElementById("mensagens");
+      lista.innerHTML = "";
+
+      dados.slice(1).reverse().forEach(([nome, email, mensagem]) => {
+        const li = document.createElement("li");
+        li.textContent = `${nome} (${email}): ${mensagem}`;
+        lista.appendChild(li);
+      });
+    }
+
+    // Carrega mensagens ao abrir a página
+    carregarMensagens();
+     </script>
+    <script src="js/integrest.j"></script>
     <script src="js/script.js"></script>
+    
   </body>
 </html>
