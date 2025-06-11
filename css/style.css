@@ -3,6 +3,7 @@
 @import url("./components/buttons.css");   
 @import url("./components/navigation.css");
 @import url("./components/switcher.css");
+@import url("./components/imputs.css");
 * {
   margin: 0;
   padding: 0;

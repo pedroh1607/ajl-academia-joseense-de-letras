@@ -1,258 +1,159 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Academia Josense de Letras</title>
-    <link rel="stylesheet" href="css/style.css" />
-    link
-
-    <link
-      rel="stylesheet"
-      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
-    />
-    <link rel="stylesheet" href="https://fontawesome.com" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <title>Academia Josense de Letras</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
-    .pagina {
-      display: none;
-    }
-    .ativa {
-      display: block;
-    }
-    /* nav button {
-      margin-right: 10px;   
-    } */
+    /* Exemplo mínimo: ajuste conforme seu CSS */
+
+
   </style>
-  <body>
-    <!-- Menu de navegação -->
-    <nav>
-      <div class="logo">
-        <img
-          src="https://ajl.org.br/wp-content/uploads/2024/05/logo-240px.png"
-          style="width: 100px; height: auto"
-          alt=""
-        />
-        <div class="slogan">Fundada em 1980</div>
+</head>
+<body>
+  <!-- Menu de navegação -->
+  <nav>
+    <div class="logo">
+      <img src="https://ajl.org.br/wp-content/uploads/2024/05/logo-240px.png"
+           style="width: 100px; height: auto" alt="" />
+      <div class="slogan">Fundada em 1980</div>
+    </div>
+    <span class="nav-section-title">Menu</span>
+    <button onclick="mostrarPagina('inicio', event)" class="button ativo">
+      <i class="fa-solid fa-house"></i> Início
+    </button>
+    <button onclick="mostrarPagina('academicos', event)" class="button">
+      Acadêmicos
+    </button>
+    <button onclick="mostrarPagina('eventos', event)" class="button">
+      Eventos
+    </button>
+    <button onclick="mostrarPagina('publicacoes', event)" class="button">
+      Publicações
+    </button>
+    <button onclick="mostrarPagina('historia', event)" class="button">
+      História
+    </button>
+    <button onclick="mostrarPagina('estatuto', event)" class="button">
+      Estatuto
+    </button>
+    <button onclick="mostrarPagina('contato', event)" class="button">
+      Contato
+    </button>
+    <button onclick="mostrarPagina('cadastro', event)" class="button">
+      Cadastro
+    </button>
+    <footer>
+      <div class="nav-footer" style="position:absolute; bottom:10px; left:10px;
+                                   font-size:0.8em; color:#d1cfc7; opacity:0.7;">
+         © 2025 Academia Josense de Letras
       </div>
-      <span class="nav-section-title">Menu</span>
-      <!-- <i class="fa-solid fa-bars" style="color: #B197FC;"></i> -->
-      <button onclick="mostrarPagina('inicio', event)" class="button ativo">
-        <i class="fa-solid fa-house"></i> incio<span
-          class="button-border"
-        ></span>
-      </button>
-      <button onclick="mostrarPagina('academicos', event)" class="button">
-        Academicos<span class="button-border"></span>
-      </button>
-      <button onclick="mostrarPagina('eventos', event)" class="button">
-        Eventos<span class="button-border"></span>
-      </button>
-      <button onclick="mostrarPagina('publicacoes', event)" class="button">
-        Publicacoes<span class="button-border"></span>
-      </button>
-      <button onclick="mostrarPagina('historia', event)" class="button">
-        Historia<span class="button-border"></span>
-      </button>
-      <button onclick="mostrarPagina('estatuto', event)" class="button">
-        Estatuto<span class="button-border"></span>
-      </button>
-      <button onclick="mostrarPagina('contato', event)" class="button">
-        <span class="button-border">Contato</span>
-      </button>
-      <button onclick="mostrarPagina('cadastro', event)" class="button">
-        <span class="button-border">Cadastro</span>
-      </button>
-      <footer>
-        <div class="nav-footer" style="position:absolute;bottom:10px ;left:10px;font-size: 0.8em;color: #d1cfc7;opacity: 0.7;">
-           © 2025 Academia Josense de Letras
-        </div>
-      </footer>
-    </nav>
-    <!-- <div class="social">
-      <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-instagram" style="color: #e6e6e6;"></i></a>
-        <a href="https://www.instagram.com/academiajoseensedeletras/" target="_blank"><i class="fa-brands fa-instagram" style="color: #e6e6e6;"></i></a>
-    </div> -->
-    <main>
-      <h1>Academia Josense de Letras</h1>
-      <p>
-        Bem-vindo ao site da Academia Josense de Letras, onde a cultura e a
-        literatura se encontram.
+    </footer>
+  </nav>
 
-        <blockquote class="citacao">
-    "A literatura é o espelho da alma de um povo." <br>
-    <span>- Membro da Academia</span>
-  </blockquote>
+  <main>
+    <h1>Academia Josense de Letras</h1>
+    <p>
+      Bem-vindo ao site da Academia Josense de Letras, onde a cultura e a literatura se encontram.
+      <blockquote class="citacao">
+        "A literatura é o espelho da alma de um povo." <br>
+        <span>- Membro da Academia</span>
+      </blockquote>
+      <div class="destaque-eventos">
+        <h2>Próximos Eventos</h2>
+        <ul>
+          <li><strong>15/07:</strong> Lançamento do livro "Vozes da Cidade"</li>
+          <li><strong>22/08:</strong> Sarau Literário</li>
+        </ul>
+      </div>
+    </p>
 
-  <div class="destaque-eventos">
-    <h2>Próximos Eventos</h2>
-    <ul>
-      <li><strong>15/07:</strong> Lançamento do livro "Vozes da Cidade"</li>
-      <li><strong>22/08:</strong> Sarau Literário</li>
-    </ul>
-  </div>
-      </p>
-      <!-- Páginas (seções) -->
-      <section id="inicio" class="pagina ativa">
-        <h1>Bem-vindo à Academia Josense de Letras</h1>
-        <p>Aqui vai o conteúdo da página inicial.</p>
+    <!-- Seções (cada uma com class="pagina") -->
+    <section id="inicio" class="pagina ativa">
+      <h1>Bem-vindo à Academia Josense de Letras</h1>
+      <p>Aqui vai o conteúdo da página inicial.</p>
+    </section>
 
-     
-      </section>
+    <section id="academicos" class="pagina">
+      <h1>Acadêmicos</h1>
+      <p>Lista com nome, cadeira, biografia e fotos dos membros.</p>
+    </section>
 
-      <section id="academicos" class="pagina">
-        <h1>Acadêmicos</h1>
-        <p>Lista com nome, cadeira, biografia e fotos dos membros.</p>
-      </section>
+    <section id="eventos" class="pagina">
+      <h1>Eventos</h1>
+      <p>Informações sobre eventos passados e futuros.</p>
+    </section>
 
-      <section id="eventos" class="pagina">
-        <h1>Eventos</h1>
-        <p>Informações sobre eventos passados e futuros.</p>
-      </section>
+    <section id="publicacoes" class="pagina">
+      <h1>Publicações</h1>
+      <p>Obras, revistas e artigos da academia.</p>
+    </section>
 
-      <section id="publicacoes" class="pagina">
-        <h1>Publicações</h1>
-        <p>Obras, revistas e artigos da academia.</p>
-      </section>
+    <section id="historia" class="pagina">
+      <h1>História</h1>
+      <p>História da fundação e trajetória da academia.</p>
+    </section>
 
-      <section id="historia" class="pagina">
-        <h1>História</h1>
-        <p>História da fundação e trajetória da academia.</p>
-      </section>
+    <section id="estatuto" class="pagina">
+      <h1>Estatuto</h1>
+      <p>Texto do estatuto ou link para download em PDF.</p>
+    </section>
 
-      <section id="estatuto" class="pagina">
-        <h1>Estatuto</h1>
-        <p>Texto do estatuto ou link para download em PDF.</p>
-      </section>
+    <section id="contato" class="pagina">
+      <h1>Contato</h1>
+      <p>Endereço, e-mail, telefone, redes sociais e formulário.</p>
+    </section>
 
-      <section id="contato" class="pagina">
-        <h1>Contato</h1>
-        <p>Endereço, e-mail, telefone, redes sociais e formulário.</p>
-      </section>
-       <section id="cadastro" class="pagina">
-        <h1>cadastrp</h1>
-        <p>Endereço, e-mail, telefone, redes sociais e formulário.</p>
+    <section id="cadastro" class="pagina">
+      <h1>Cadastro na Academia Joseense de Letras</h1>
+      <form id="meuFormulario">
+        <input type="text" name="nome" placeholder="Digite seu nome" required /><br />
+        <input type="text" name="sobre_nome" placeholder="Digite seu sobrenome" /><br />
+        <input type="text" name="pseudonimo" placeholder="Digite seu pseudônimo" required /><br /><br />
+        <div class="niver_date">
+          <label for="nascimento">Data de nascimento</label><br/>
+          <input type="date" id="nascimento" name="nascimento" />
+        </div><br/>
+        <input type="text" name="cpf" id="cpf" inputmode="numeric" placeholder="999.999.999-99" required /><br />
+        <input type="text" name="rg" id="rg" inputmode="numeric" placeholder="Digite seu RG" required /><br />
+        <input type="tel" name="cell" id="cell" placeholder="(99) 99999-9999" maxlength="15" /><br />
+        <input type="text" name="endereco" placeholder="Digite seu endereço completo" required /><br />
+        <input type="email" name="email" placeholder="Digite seu Email" required /><br /><br />
+        <label for="escolaridade">Nível de Escolaridade:</label><br />
+        <select id="escolaridade" name="escolaridade" required>
+          <option value="" disabled selected>Selecione seu nível</option>
+          <option value="fundamental">Ensino Fundamental</option>
+          <option value="medio">Ensino Médio</option>
+          <option value="superior">Ensino Superior</option>
+          <option value="pos_graduacao">Pós-graduação</option>
+        </select><br/><br/>
+        <label for="curso_superior">Curso Superior (se aplicável):</label><br />
+        <select id="curso_superior" name="curso_superior" required>
+          <option value="" disabled selected>Selecione seu curso</option>
+          <option value="Letras (Português, Literaturas, Linguística)">Letras (Português, Literaturas, Linguística)</option>
+          <option value="Jornalismo">Jornalismo</option>
+          <option value="Comunicação Social">Comunicação Social</option>
+          <option value="Tradução e Interpretação">Tradução e Interpretação</option>
+          <option value="Pedagogia (com ênfase em Língua Portuguesa)">Pedagogia (com ênfase em Língua Portuguesa)</option>
+          <option value="História (focado em História da Literatura ou Cultura)">História (focado em História da Literatura ou Cultura)</option>
+          <option value="Filosofia (com foco em Linguagem e Pensamento)">Filosofia (com foco em Linguagem e Pensamento)</option>
+          <option value="Artes (especialmente Artes Cênicas ou Literatura Dramática)">Artes (especialmente Artes Cênicas ou Literatura Dramática)</option>
+          <option value="Biblioteconomia">Biblioteconomia</option>
+        </select><br/><br/>
+        <textarea name="biografia" placeholder="Digite sua biografia" required></textarea><br/>
+        <textarea name="obras" placeholder="Digite suas obras públicas com nome e ano de lançamento" required></textarea><br/>
+        <button class="submit_button" type="submit">Enviar</button>
+      </form>
+      <h2>Cadastros recebidos:</h2>
+      <ul id="mensagens"></ul>
+    </section>
+  </main>
 
-          <h1>Enviar mensagem</h1>
-          <form id="meuFormulario">
-            <input type="text" name="nome" placeholder="Digite seu nome" required /><br />
-            <input type="text" name="sobre_nome" placeholder="Digite seu sobrenome" /><br />
-            <input type="text" name="pseudonimo" placeholder="Digite seu pseudônimo  " required /><br />
-            <div class="niver_date">
-              <label for="nascimento">Digite sua data de nascimento</label><br/>
-              <input type="date" id="nascimento" name="nascimento">
-            </div>
-            <input type="text" name="rg" placeholder="Digite seu RG" required /><br />
-            <input type="tel" name="cell" id="celular" placeholder="(99) 99999-9999" maxlength="15" /><br />
-            <input type="text" name="endereco" placeholder="Digite seu endereço completo" required /><br />
-            <input type="email" name="email" placeholder="Digite seu Email" required /><br />
-            <label for="escolaridade">Nível de Escolaridade:</label>
-              <select id="escolaridade" name="escolaridade" required>
-                <option value="" disabled selected>Selecione seu nível</option>
-                <option value="fundamental">Ensino Fundamental</option>
-                <option value="medio">Ensino Médio</option>
-                <option value="superior">Ensino Superior</option>
-                <option value="pos_graduacao">Pós-graduação</option>
-              </select><br />
-              <label for="escolaridade">Nível de Escolaridade:</label>
-              <select id="curso_superior" name="curso_superior" required>
-                <option value="Nível_escolaridade" disabled selected>Selecione seu nível</option>
-                <option value="Letras (Português, Literaturas, Linguística)">Letras (Português, Literaturas, Linguística)</option>
-                <option value="Jornalismo">Jornalismo</option>
-                <option value="Comunicação Social">Comunicação Social</option>
-                <option value="Tradução e Interpretação">Tradução e Interpretação</option>
-                <option value="Pedagogia (com ênfase em Língua Portuguesa)">Pedagogia (com ênfase em Língua Portuguesa)</option>
-                <option value="História (focado em História da Literatura ou Cultura)">História (focado em História da Literatura ou Cultura)</option>
-                <option value="Filosofia (com foco em Linguagem e Pensamento)">Filosofia (com foco em Linguagem e Pensamento)</option>
-                <option value="Artes (especialmente Artes Cênicas ou Literatura Dramática)">Artes (especialmente Artes Cênicas ou Literatura Dramática)</option>
-                <option value="Biblioteconomia">Biblioteconomia</option>
-              </select><br />
-            <textarea name="biografia" placeholder="Digite sua biografia" required></textarea><br />
-            <textarea name="obras" placeholder="Digite sua obras publicas com nome e ano de lançamento" required></textarea><br />
-            <button class="submit_button" type="submit">Enviar</button>
-          </form>
-          <!-- <ul id="mensagens"></ul> -->
-      </section>
-    </main>
-    <!-- <script>
-        const URL_API = "https://script.google.com/macros/s/AKfycbxeZJ4Z-YvcDmkva41tdAwHaNe1Eg38Iijn6sLXS2gBNWgwrDzt15vhN2Q3G7wjQMfYEg/exec"; // Substitua aqui
-
-    document.getElementById("meuFormulario").addEventListener("submit", async function (e) {
-      e.preventDefault();
-      const form = e.target;
-      const dados = {
-        nome: form.nome.value,
-        sobre_nome: form.sobre_nome.value,
-        pseudonimo: form.pseudonimo.value,
-        nascimento: form.nascimento.value,
-        rg: form.rg.value,
-        cell: form.cell.value,
-        endereco: form.endereco.value,
-        email: form.email.value,
-        escolaridade: form.escolaridade.value,
-        curso_superior: form.curso_superior.value,
-        biografia: form.biografia.value,
-        obras: form.obras.value
-      };
-
-      await fetch(URL_API, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        mode: "no-cors", // <-- adicione esta linha
-        body: JSON.stringify(dados)
-      });
-      const formData = new FormData();
-      formData.append("nome", form.nome.value);
-      formData.append("sobre_nome", form.sobre_nome.value);
-      formData.append("pseudonimo", form.pseudonimo.value);
-      formData.append("nascimento", form.nascimento.value);
-      formData.append("rg", form.rg.value);
-      formData.append("cell", form.cell.value);
-      formData.append("endereco", form.endereco.value);
-      formData.append("email", form.email.value);
-      formData.append("escolaridade", form.escolaridade.value);
-      formData.append("curso_superior", form.curso_superior.value);
-      formData.append("biografia", form.biografia.value);
-      formData.append("obras", form.obras.value);
-
-      try {
-        const res = await fetch(URL_API, {
-          method: "POST",
-          body: formData
-        });
-
-        const texto = await res.text();
-        alert("Resposta do servidor: " + texto);
-        form.reset();
-        carregarMensagens();
-      } catch (err) {
-        console.error("Erro:", err);
-        alert("Erro ao enviar. Verifique o console.");
-      } 
-    });
-  </script> -->
-  <!-- <script>
-  document.getElementById('celular').addEventListener('input', function (e) {
-    let v = e.target.value.replace(/\D/g, ''); // só números
-    if (v.length > 11) v = v.slice(0, 11); // máximo 11 dígitos
-
-    // máscara: (99) 99999-9999
-    v = v.replace(/^(\d{2})(\d)/g, '($1) $2');
-    v = v.replace(/(\d{5})(\d)/, '$1-$2');
-
-    e.target.value = v;
-  });
-  </script> -->
-    <!-- Script para navegação SPA -->
-    <script src="js/script.js"></script>
-    <script src="js/tranfer.js"></script>
-    
-    
-  </body>
+  <!-- Scripts: primeiro script.js com mostrarPagina e navegação, depois transfer.js -->
+  <script src="js/script.js"></script>
+  <script src="js/transfer.js"></script>
+</body>
 </html>

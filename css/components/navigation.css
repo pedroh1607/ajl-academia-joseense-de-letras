@@ -1,4 +1,7 @@
 /* Adicione ao seu navigation.css ou style.css */
+.pagina { display: none; }
+.ativa { display: block; } 
+
 nav {
     position: fixed;
     top: 0;
