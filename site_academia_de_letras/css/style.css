@@ -1,0 +1,29 @@
+@import url("./components/layout.css");
+@import url("./components/cards.css");
+@import url("./components/buttons.css");   
+@import url("./components/navigation.css");
+@import url("./components/switcher.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}  
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+  color: #222;
+}  
+
+ul, ol {
+  list-style: none;
+}  
+
+a {
+  text-decoration: none;
+  color: inherit;
+}  
+
+/* main {
+    margin-left: 190px; /* igual ao width do nav 
+} */

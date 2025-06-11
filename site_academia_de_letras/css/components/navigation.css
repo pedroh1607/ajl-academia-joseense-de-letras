@@ -1,0 +1,136 @@
+/* Adicione ao seu navigation.css ou style.css */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 230px; /* <-- AQUI ESTAVA O ERRO */
+    height: 100vh; /* altura da tela toda */
+    background: #22304a;
+    color: #ede9e3;
+    padding: 36px 20px 24px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 100;
+    align-items: flex-start;
+    box-shadow: 2px 0 16px rgba(34,48,74,0.10);
+    font-family: 'Georgia', 'Times New Roman', serif;
+    border-right: 1px solid #d1cfc7;
+    
+}
+nav .logo {
+
+    font-size: 1.3rem;
+    font-family: 'Georgia', serif;
+    color: #ffe082;
+    margin-bottom: 32px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #1B365D22;
+}
+nav .logo .slogan {
+  font-size: 0.9em;
+  color: #ffe082;
+  margin-top: 8px;
+  opacity: 0.7;
+  font-style: italic;
+}
+main {
+    margin-left: 240px;
+    /* opcional: */
+  min-height: 100vh;
+  display: block;
+}
+nav button.ativo {
+    
+    background-color: #1B365D;
+    color: #fff;
+}
+nav button {
+    background: transparent;
+    border: none;
+    border-left: 4px solid transparent;
+    border-radius: 4px;
+    padding: 12px 0 12px 12px;
+    color: #ede9e3;
+    font-size: 1.08rem;
+    font-family: inherit;
+    text-align: left;
+    width: 100%;
+    transition: 
+        background 0.2s,
+        color 0.2s,
+        border-color 0.2s;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #dddcdc;
+}
+
+nav button.ativo,
+nav button:hover {
+    background: rgba(255,255,255,0.08);
+    color: #ffe082;
+    border-left: 4px solid #ffe082;
+}
+
+/* nav i {
+    margin-right: 8px;
+    font-size: 1.1em;
+} */
+nav .social {
+  margin-top: auto;
+  display: flex;
+  gap: 12px;
+}
+nav .social a {
+  color: #ffe082;
+  font-size: 1.3em;
+  transition: color 0.2s;
+}
+nav .social a:hover {
+  color: #fff;
+}
+
+nav .nav-section-title {
+  font-size: 0.95em;
+  color: #ffe082;
+  margin: 18px 0 6px 0;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+@media (max-width: 700px) {
+    nav {
+        width: 140px;
+        height: 100vh;
+        align-items: center;
+        padding: 12px 8px;
+        box-shadow: 0 2px 12px rgba(34,48,74,0.08);
+        border-right: none;
+    }
+    nav .logo {
+        margin-bottom: 0;
+        margin-right: 24px;
+    }
+    nav .logo img{
+        margin-left: 10px;
+    }
+    nav button {
+        font-size: 1em;
+        padding: 10px 8px;
+        border-left: none;
+        border-bottom: 3px solid transparent;
+        border-radius: 0;
+        width: 100%;
+    }
+    nav button.ativo,
+    nav button:hover {
+        border-left: none;
+        border-bottom: 3px solid #ffe082;
+    }
+    main {
+        margin-left: 130px; /* igual ao width do nav */
+    }
+}

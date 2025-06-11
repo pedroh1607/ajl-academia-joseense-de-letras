@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Academia Josense de Letras</title>
+    <link rel="stylesheet" href="css/style.css" />
+    link
+
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="https://fontawesome.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <style>
+    .pagina {
+      display: none;
+    }
+    .ativa {
+      display: block;
+    }
+    /* nav button {
+      margin-right: 10px;   
+    } */
+  </style>
+  <body>
+    <!-- Menu de navegação -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://ajl.org.br/wp-content/uploads/2024/05/logo-240px.png"
+          style="width: 100px; height: auto"
+          alt=""
+        />
+        <div class="slogan">Fundada em 1980</div>
+      </div>
+      <span class="nav-section-title">Menu</span>
+      <!-- <i class="fa-solid fa-bars" style="color: #B197FC;"></i> -->
+      <button onclick="mostrarPagina('inicio', event)" class="button ativo">
+        <i class="fa-solid fa-house"></i> incio<span
+          class="button-border"
+        ></span>
+      </button>
+      <button onclick="mostrarPagina('academicos', event)" class="button">
+        Academicos<span class="button-border"></span>
+      </button>
+      <button onclick="mostrarPagina('eventos', event)" class="button">
+        Eventos<span class="button-border"></span>
+      </button>
+      <button onclick="mostrarPagina('publicacoes', event)" class="button">
+        Publicacoes<span class="button-border"></span>
+      </button>
+      <button onclick="mostrarPagina('historia', event)" class="button">
+        Historia<span class="button-border"></span>
+      </button>
+      <button onclick="mostrarPagina('estatuto', event)" class="button">
+        Estatuto<span class="button-border"></span>
+      </button>
+      <button onclick="mostrarPagina('contato', event)" class="button">
+        <span class="button-border">Contato</span>
+      </button>
+      <footer>
+        <div class="nav-footer" style="position:absolute;bottom:10px ;left:10px;font-size: 0.8em;color: #d1cfc7;opacity: 0.7;">
+           © 2025 Academia Josense de Letras
+        </div>
+      </footer>
+    </nav>
+    <!-- <div class="social">
+      <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-instagram" style="color: #e6e6e6;"></i></a>
+        <a href="https://www.instagram.com/academiajoseensedeletras/" target="_blank"><i class="fa-brands fa-instagram" style="color: #e6e6e6;"></i></a>
+    </div> -->
+    <main>
+      <h1>Academia Josense de Letras</h1>
+      <p>
+        Bem-vindo ao site da Academia Josense de Letras, onde a cultura e a
+        literatura se encontram.
+
+        <blockquote class="citacao">
+    "A literatura é o espelho da alma de um povo." <br>
+    <span>- Membro da Academia</span>
+  </blockquote>
+
+  <div class="destaque-eventos">
+    <h2>Próximos Eventos</h2>
+    <ul>
+      <li><strong>15/07:</strong> Lançamento do livro "Vozes da Cidade"</li>
+      <li><strong>22/08:</strong> Sarau Literário</li>
+    </ul>
+  </div>
+      </p>
+      <!-- Páginas (seções) -->
+      <section id="inicio" class="pagina ativa">
+        <h1>Bem-vindo à Academia Josense de Letras</h1>
+        <p>Aqui vai o conteúdo da página inicial.</p>
+      </section>
+
+      <section id="academicos" class="pagina">
+        <h1>Acadêmicos</h1>
+        <p>Lista com nome, cadeira, biografia e fotos dos membros.</p>
+      </section>
+
+      <section id="eventos" class="pagina">
+        <h1>Eventos</h1>
+        <p>Informações sobre eventos passados e futuros.</p>
+      </section>
+
+      <section id="publicacoes" class="pagina">
+        <h1>Publicações</h1>
+        <p>Obras, revistas e artigos da academia.</p>
+      </section>
+
+      <section id="historia" class="pagina">
+        <h1>História</h1>
+        <p>História da fundação e trajetória da academia.</p>
+      </section>
+
+      <section id="estatuto" class="pagina">
+        <h1>Estatuto</h1>
+        <p>Texto do estatuto ou link para download em PDF.</p>
+      </section>
+
+      <section id="contato" class="pagina">
+        <h1>Contato</h1>
+        <p>Endereço, e-mail, telefone, redes sociais e formulário.</p>
+      </section>
+    </main>
+    <!-- Script para navegação SPA -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
