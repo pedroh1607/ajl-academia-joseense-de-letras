@@ -1,4 +1,5 @@
 function mostrarPagina(id, event) {
+    
     document.querySelectorAll(".pagina").forEach((pagina) => {
         pagina.classList.remove("ativa");
     });

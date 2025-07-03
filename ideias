@@ -1,0 +1,561 @@
+✅ Usar uma planilha do Google (Google Sheets) conectada ao site
+Como funciona:
+Você cria uma planilha no Google Sheets com colunas como:
+
+Data
+
+Título
+
+Descrição
+
+Link (opcional)
+
+Publicado (Sim/Não)
+
+Conecta essa planilha ao site com um pequeno código JavaScript (pode ser feito uma vez por um desenvolvedor, ou com sua ajuda).
+
+Toda vez que quiser colocar ou tirar um evento, basta editar a planilha.
+
+🛠️ Exemplo prático:
+Data	Título do Evento	Descrição	Link	Publicado
+20/07/2025	Sarau Literário	Encontro de poesia	https://evento.com/sarau	Sim
+30/07/2025	Oficina de Crônicas	Aula especial	https://evento.com/oficina	Não
+
+Se “Publicado” for “Sim”, o evento aparece no site.
+
+Se for “Não”, ele some.
+
+🚀 Vantagens:
+Não precisa mexer no código do site.
+
+Tudo é feito via planilha.
+
+Dá para editar do celular.
+
+É gratuito.
+
+⚙️ Como conectar:
+Posso te ajudar a configurar o código JavaScript que lê os dados da planilha. É simples e funciona com HTML puro + JavaScript.
+
+Se quiser, posso gerar esse modelo de código agora com base em um exemplo. Você quer?
+
+
+
+
+
+
+
+Histórico
+A HISTÓRIA DA ACADEMIA JOSEENSE DE LETRAS foi pesquisada pelo acadêmico Augusto Dias, cadeira 14, por incumbência do presidente da Academia Joseense de Letras, biênio 2016/2018, Héctor Enrique Giana, e se baseia em fontes primárias e secundárias de pesquisa histórica: atas registradas em cartório, documentos emitidos por órgãos oficiais, publicações oficiais, convites impressos, fotos e artigos publicados pela imprensa escrita e inúmeros depoimentos pessoais prestados por quem participou dessa história, de uma maneira ou de outra, conferindo a ela autenticidade e legitimidade.
+
+27/7/1980 – O LANÇAMENTO DA IDEIA DE CRIAÇÃO DA ACADEMIA
+
+O nascimento da ideia de se criar uma Academia de Letras em São José dos Campos aconteceu no dia vinte e sete de julho de mil novecentos e oitenta, no plenário da Câmara Municipal de São José dos Campos, localizada na Praça Afonso Pena, quando se comemorava o ducentésimo décimo terceiro aniversário de fundação de São José dos Campos. Em meio à solenidade em que se prestavam homenagens aos escritores e poetas da cidade com a outorga de um diploma, o prefeito municipal, Joaquim Vicente Ferreira Bevilacqua, “tomado de incontido entusiasmo e ao mesmo tempo tendo diante do seu espírito uma visão panorâmica do que adviria pelo futuro adentro, bradou com todas as energias latentes na interioridade de sua alma, dialogando rapidamente com o professor Domingos de Macedo Custódio” fez uma pergunta-exclamação: “Não seria bom lançar-se a ideia de criação de uma Academia de ‘Letras!?” O professor, tomado também de entusiasmo, disse ao jovem prefeito: “Lance a ideia.” E, de fato, ao assomar à tribuna, o prefeito municipal foi o primeiro a se imortalizar, ao anunciar à seleta assistência ali congregada, o firme propósito de convocar a todos os que laboram no espírito, a se unirem para a fundação da Academia Joseense de Letras.
+
+20/10/1980 – O AVANÇO DA IDEIA
+
+No dia vinte de outubro de mil novecentos e oitenta foi realizada a primeira reunião para a fundação da Academia Joseense de Letras, na Sala de Leitura da Biblioteca Pública Cassiano Ricardo, situada à Rua Sebastião Hummel, 110, sob a presidência do professor Domingos de Macedo Custódio, que havia sido incumbido pelo prefeito municipal Joaquim Vicente Ferreira Bevilacqua para proceder aos estudos objetivando a fundação da Academia, “congraçando para esse fim a nata intelectual do município, iniciou a reunião com uma breve exposição dos motivos que levaram o poder executivo a aglutinar as forças vivas da inteligência joseense, todos já bem familiarizados nos centros culturais da cidade pelas belas obras produzidas neste gracioso e pitoresco recanto de nossa pátria.”
+
+“O espírito – asseverou o professor Domingos de Macedo Custódio – supera a matéria. Muitos dos nomes dos grandes cientistas e matemáticos desmaiaram no tempo, mas os dos filósofos, dos artistas consumados, continuam a percorrer a esteira da temporalidade, sempre considerados e estudados com profundo respeito.”
+
+Recordou ainda, em linhas gerais, a maneira como se erigiu a Academia Brasileira de Letras, contando com o concurso das cintilantes celebrações do tempo – Graça Aranha, Araripe Júnior, Lúcio de Mendonça, Coelho Neto, Alberto de Oliveira, Silvio Romero, Rui Barbosa e tantos outros luminares das letras, entre os quais se distinguia Machado de Assis, “espírito atilado e oceânico no conhecimento da psicologia humana, equiparando-se nesse sentido aos grandes escritores do seu mundo contemporâneo, sendo por isso aclamado por seus pares, o primeiro presidente da Academia Brasileira de Letras.”
+
+O APOIO DA ADMINISTRAÇÃO PÚBLICA E AS PRIMEIRAS DECISÕES
+
+26/10/1981 – Solenidade de Posse da Academia Joseense de Letras.
+
+Auditório da Fundação Valeparaibana de Ensino – Praça Cândido Dias Castejón.
+
+Na sequência da primeira reunião, logo após a abertura pelo presidente Domingos de Macedo Custódio, ele passou a palavra ao Doutor Jose Lo-Ré, diretor do Departamento de Cultura para que expressasse o pensamento do prefeito municipal Joaquim Vicente Ferreira Bevilacqua. Ele disse que “Trazia a incumbência de participar deste cenáculo de escritores e o apoio incondicional do prefeito municipal. A semente lançada na egrégia Câmara Municipal na noite de vinte e sete de julho deste mesmo ano, quando da comemoração dos duzentos e treze anos de fundação da cidade, já começou a germinar e produzir saborosos frutos. A Academia de Letras, uma vez criada em breve agasalhará em seu seio os “imortais” joseenses. Acrescenta a esse entusiasmo a palavra do prefeito municipal que interroga: “Se existe a Academia Brasileira de Letras e a Academia Paulista de Letras, porque não a Academia de São José dos Campos?” Em seguida passou-se à discussão do nome a ser dado à Academia, se municipal ou joseense. O professor Jairo César de Siqueira propôs a denominação de Academia Joseense de Ciências e Letras, justificando ser essa mais moderna e de conformidade com o desenvolvimento tecnológico e científico da atualidade, notadamente por constituir-se São José dos Campos um dos mais avançados da terra, reunindo grandes expressões não só do país, como de todo o mundo. O professor Francisco Pereira da Silva, muito embora achasse interessante a proposta, opôs-se à ideia, propondo o nome de Academia Joseense de Letras nos moldes das demais do Estado de São Paulo e do país. Colocada em votação após ponderações, o nome proposto pelo professor Francisco Pereira da Silva foi aprovado pelos intelectuais presentes.
+
+
+A REPERCUSSÃO SOBRE A FUNDAÇÃO DA ACADEMIA
+
+Ao abrir a pauta da segunda reunião para fundação da Academia Joseense de Letras, o professor Domingos de Macedo Custódio, que presidiu a reunião, procedeu, preliminarmente, a considerações gerais sobre a repercussão do movimento da imprensa e no consenso da opinião pública “assegurando haver sido a ideia, emanada do chefe do executivo municipal, doutor Joaquim Vicente Ferreira Bevilacqua, recebida, favoravelmente, não só pelos escritores da cidade, como por todo o mundo cultural, pelas instituições de todos os gêneros, pelas entidades de classe e pelos estudantes de todos os graus, ajuntando-se a todas essas manifestações o apoio do povo que luta, que vive ocupado nos escaninhos das fábricas ou nas áreas de circulação da riqueza nacional, isto é, o comércio. Tudo leva a supor tratar-se de uma iniciativa bem aceita pela população, conforme se depreende dos noticiários e comentários da imprensa escrita e oral.”
+
+18/12/1980 – A ESCOLHA DA PRIMEIRA DIRETORIA
+
+Na terceira reunião dos membros fundadores da Academia Joseense de Letras, na Sala de Leitura da Biblioteca Pública Cassiano Ricardo, situada na Rua Sebastião Hummel, 110, o professor Domingos de Macedo Custódio, naturalmente eleito presidente, após rápidas consultas, indicou ad referendum de todos os membros fundadores os membros da diretoria: Mário Ottoboni, secretário geral; Hélio Pinto Ferreira, primeiro secretário; Geraldo Marcondes Cabral, segundo secretário e Nadir Bertolini, tesoureiro.
+
+26/10/1981 – SOLENIDADE DE INSTALAÇÃO DA ACADEMIA JOSEENSE DE LETRAS
+
+CONVITE
+
+Tenho o prazer de convidá-lo e à Excelentíssima Família para a Sessão Inaugural da ACADEMIA JOSEENSE DE LETRAS no dia 26 de outubro de 1.981, às 20:00 horas, no Auditório da Fundação Valeparaibana de Ensino, à Praça Cândido Dias Castejon. No desenvolvimento da solenidade serão investidos nas respectivas Cadeiras os insígnes intelectuais egressos de todas as camadas da laboriosa sociedade, ora integrantes da mais elevada representação das nossas tradições de cultura e espiritualidade.
+
+Certo de contar com o habitual e indefectível apoio a este feito de imortal merecimento para maior grandeza literária da Nação, aproveito a oportunidade para expressar a Vossa Excelência as minhas afetuosas saudações.
+
+Joaquim Vicente Ferreira Bevilacqua
+Presidente de Honra
+
+A Solenidade de Instalação da ACADEMIA JOSEENSE DE LETRAS fez parte da programação da Semana Cassiano Ricardo (26/10 a 30/10/1981).
+
+MANIFESTAÇÕES DE APOIO À FUNDAÇÃO DA ACADEMIA
+
+A fundação da Academia Joseense de Letras, além do manifesto apoio do Poder Executivo Municipal, teve o apoio do Poder Legislativo Municipal através do Requerimento nº 1532, de autoria do vereador Cyrillo Paes, aprovado em Sessão Plenária da Câmara Municipal no dia 27 de outubro de 1981 e através do Requerimento 1559, de autoria do vereador Macedo Bastos, aprovado em Sessão Plenária da Câmara Municipal no dia 3 de novembro de 1981. Os documentos foram enviados através de ofícios assinados pelo presidente da Câmara Municipal de São José dos Campos, vereador José Luiz de Almeida.No Plenário da Câmara Federal, o deputado federal José de Castro Coimbra, em discurso publicado no Diário do Congresso Nacional nº 160 de 5 de dezembro de 1981 no qual diz, entre outros: “São José dos Campos viveu há poucos dias um dos seus grandes esplendores culturais. Cidade cosmopolita, com um aspecto de Metrópole em marcha sorridente e festiva pelo futuro adentro. A Academia Joseense de Letras era o sonho doirado dos intelectuais da terra e de tantas figuras notáveis que por ali passaram, deixando impressões indeléveis na alma da obreira comunidade, as suas marcas espirituais, que acumuladas na fluência do tempo deram causa ao surgimento do belíssimo templo da cultura das nossas tradições e defesa desse monumental idioma, que nos serve de instrumento de comunicação entre o passado histórico e a grandeza do presente. Compõe a Academia a nata intelectual da cidade, toda ela participante de atividades ligadas ao mundo da inteligência, do espírito, das artes, da ciência, das esferas do ensino superior, sempre preocupada com o polimento moral e cultural da mocidade.”
+
+17/12/1981 – DECLARAÇÃO DE UTILIDADE PÚBLICA
+
+No dia 17/12/1981, pela Lei Nº 2553/81, “O Prefeito Municipal de São José dos Campos, faz saber que a Câmara Municipal aprova e ele sanciona e promulga a seguinte Lei: Artigo 1º – Fica declarada de utilidade pública a entidade ‘ACADEMIA JOSEENSE DE LETRAS,’ com sede e foro em São José dos Campos. Artigo 2º – Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário. Prefeitura Municipal de São José dos Campos, 17 de dezembro de 1981. (a) Joaquim Bevilacqua – Prefeito Municipal; Luiz Carlos Pêgas – Secretaria de Assuntos Internos e Jurídicos; Pedro Rodrigues da Costa Dória – Secretaria do Governo; Fortunato Júnior – Setor de Formalização de Atos.”
+
+ACIDENTE DE PERCURSO
+
+Em 1986 falece o presidente da Academia Joseense de Letras, o professor Domingos de Macedo Custódio. Por delegação dos demais membros da Academia, o acadêmico Jair Leite foi incumbido de buscar soluções decorrentes da vacância do cargo, assim como para a continuidade das atividades e para o preenchimento das vagas ainda existentes. Ele não teve sucesso em suas tratativas.
+
+Pouco tempo depois as atividades estariam paralisadas e iniciava-se um hiato que se estenderia até 2010.
+
+A REATIVAÇÃO DA ACADEMIA
+
+Tudo recomeçou durante a Solenidade de Entrega das Medalhas do Mérito Educacional Professor Everardo de Miranda Passos na Câmara Municipal de São José dos Campos, em 2.005, uma iniciativa do Clube de Joseenses e Amigos.Entre os homenageados estava o professor Francisco de Assis Rímoli, que comentou com o vereador Walter Hayashi que havia lhe entregue uma das medalhas da homenagem, sobre a possibilidade de reativação da Academia, inativa desde 1986.
+
+Iniciava-se ali o processo de reativação da Academia Joseense de Letras.
+
+Ao mesmo tempo, os acadêmicos Mário Ottoboni e Silvio Marques Neto também manifestavam seu desejo e se movimentavam para ver a Academia Joseense de Letras ativa, novamente.
+
+O vereador Walter Hayashi, num trabalho conjunto com Paulo Locatelli, presidente do Clube de Joseenses e Amigos e com o ex-vereador Luiz Paulo Costa, levantou a documentação existente no 1º Cartório de Registro Civil de Pessoa Jurídica. As reuniões de preparo foram realizadas no Clube de Joseenses e Amigos e contou também com o apoio de Silvio Marques Neto e Mário Ottoboni, remanescentes da Academia fundada em 1.980. Em seguida os trabalhos foram levados, por recomendação do vereador Walter Hayashi, à Fundação Cultural Cassiano Ricardo, sob a presidência de Mário Domingos de Moraes, em cujas instalações as reuniões de preparo passaram a acontecer. Ao grupo vieram se juntar Francisco de Assis Rímoli, Dyrce Araújo, Zenilda Lua, Edmundo de Carvalho e o Assessor Jurídico da Fundação Cultural Cassiano Ricardo, doutor Luiz Wagner Outeiro Hernandes. O jornalista Júlio Ottoboni, que seria o curador da 44ª Semana Cassiano Ricardo, a ser realizada entre 25 e 31 de outubro de 2010, tomou a frente dos trabalhos de composição do quadro de acadêmicos da Academia, buscando seus nomes no meio literário e social de São José dos Campos.
+
+A POSSE SOLENE DOS MEMBROS EFETIVOS NATOS
+
+Às 20h do dia 25 de outubro de 2010, no Espaço Cultural Cine Santana, localizado à Avenida Rui Barbosa, 2005, em Santana, aconteceu a Solenidade de Posse dos Acadêmicos da Academia Joseense de Letras.
+
+
+25/10/2010 – Solenidade de Reativação e Posse da Academia Joseense de Letras – Centro Cultural Santana – Santana – São José dos Campos
+
+Atrás (da esquerda para a direita) – representante – Reinaldo Rodrigues de Sá – Edmundo de Carvalho – Suely de Souza Lima – Wilson Roberto de Carvalho de Almeida – Christina Hernandes – Alberto Simões – representante – Daniel Pedrosa – Rita Elisa Seda.
+
+Na frente: Mário Domingos de Moraes – Mário Ottoboni – Marco Antônio Vitti – Braga Barros – Zenilda Lua – Myrthes Mazza Masiero – Luiz Paulo Costa – Augusto Dias – Dyrce Araújo – representante.
+
+A ESCOLHA DAS CADEIRAS E DOS PATRONOS
+
+O número de cada cadeira foi determinado por sorteio em assembleia realizada no decorrer de 2011. Em outra assembleia, cada acadêmico apresentou o patrono definitivo
+
+Os 20 membros efetivos natos, ocupantes das 20 cadeiras previstas:
+
+Cadeira 01 – Mário Domingos de Moraes (presidente de honra)*
+
+– patrono: Cassiano Ricardo
+
+Cadeira 02 – Mário Ottoboni (advogado e escritor)
+
+– patrono: Paulo Setúbal
+
+Cadeira 03 – Silvio Marques Neto (desembargador aposentado e escritor)
+
+– patrono: José Frederico Marques
+
+Cadeira 04 – Luiz Paulo Costa (jornalista e escritor)
+
+– patrono: Francisco Pereira da Silva
+
+Cadeira 05 – Suely Souza Lima (pedagoga, psicoterapeuta e escritora)
+
+– patrona: Cora Coralina
+
+Cadeira 06 – Edmundo de Carvalho (engenheiro e escritor)
+
+– patrono: Mário de Andrade
+
+Cadeira 07 – Christina Hernandes ( assistente social e escritora)
+
+– patrono: Monteiro Lobato
+
+Cadeira 08 – Dyrce Araújo (educadora, poeta e escritora)
+
+– patrona: Hilda Hilst
+
+Cadeira 09 – Myrthes Mazza Masiero (pedagoga, poeta e escritora)
+
+– patrono: Péricles Eugênio da Silva Ramos
+
+Cadeira 10 – Braga Barros ( pedagogo e escritor)
+
+– patrono: Manoel de Barros
+
+Cadeira 11 – Ozires Silva (engenheiro aeronáutico, professor e escritor)
+
+– patrono: Santos Dumont
+
+Cadeira 12 – Wilson Roberto de Carvalho de Almeida (professor, poeta e escritor)
+
+– patrono: Vinicius de Moraes
+
+Cadeira 13 – Zenilda Lua (assistente social e escritora)
+
+– patrono: Manuel Bandeira
+
+Cadeira 14 – Augusto Dias (professor, jornalista, advogado e escritor)
+
+– patrono: Joaquim Nabuco
+
+Cadeira 15 – Alberto Simões (professor, jornalista, radialista e escritor)
+
+– patrono: Mário Filho
+
+Cadeira 16 – Paulo Roxo Barja (professor, músico e escritor)
+
+– patrono: Leandro Gomes de Barros
+
+Cadeira 17 – Marco Antônio Vitti (psiquiatra e escritor)
+
+– patrono: Antônio Carlos Jobim
+
+Cadeira 18 – Rita Elisa Seda (fotógrafa, jornalista, poeta e escritora)
+
+– patrona: Ruth Guimarães
+
+Cadeira 19 – Reinaldo Rodrigues (jornalista, professor e escritor)
+
+– patrono: Solano Trindade
+
+Cadeira 20 – Daniel Pedrosa (engenheiro, compositor musical e escritor)
+
+– patrono: Moacyr Scliar
+
+
+O poeta Cassiano Ricardo, Patrono da Academia Joseense de Letras e Patrono da Cadeira 1.
+
+*A denominação “presidente de honra,” dada ao presidente da Fundação Cultural Cassiano Ricardo, seria alterada para “membro honorário” – sem ocupar cadeira – em conformidade com o Estatuto e a cadeira 1 foi, posteriormente, declarada vaga e preenchida com o nome de um membro efetivo eleito em assembleia realizada em 2012.
+
+A PRIMEIRA SEDE PROVISÓRIA
+
+A primeira Assembleia Geral Ordinária da Academia Joseense de Letras foi realizada no mês de novembro de 2010. A sede provisória seria a Sala de Reuniões da Fundação Cultural Cassiano Ricardo, nas antigas instalações da Tecelagem Parahyba, e a renascente Academia, que lá permaneceu até dezembro de 2012, contou com o apoio jurídico e logístico do doutor Luiz Wagner Outeiro Hernandes, Diretor Jurídico da Fundação Cultural Cassiano Ricardo.
+
+A primeira diretoria da Academia foi eleita para o biênio 2011/ 2012:
+
+Presidente – Edmundo de Carvalho (cadeira 6)
+Diretor Administrativo – Daniel Pedrosa (cadeira 20)
+Diretor Cultural – Dyrce Araújo (cadeira 8)
+
+ 
+
+A SEGUNDA SEDE PROVISÓRIA
+
+A primeira Assembleia Geral Ordinária da Academia Joseense de Letras foi realizada no mês de novembro de 2010. A sede provisória seria a Sala de Reuniões da Fundação Cultural Cassiano Ricardo, nas antigas instalações da Tecelagem Parahyba, e a renascente Academia, que lá permaneceu até dezembro de 2012, contou com o apoio jurídico e logístico do doutor Luiz Wagner Outeiro Hernandes, Diretor Jurídico da Fundação Cultural Cassiano Ricardo.
+
+A diretoria para o biênio 2013/2014 foi eleita com:
+
+Presidente – Wilson Roberto de Carvalho de Almeida (cadeira 12)
+Diretor Administrativo – Augusto Dias (cadeira 14)
+Diretor Cultural – Christina Hernandes (cadeira 7)
+
+ 
+
+Como sua primeira medida, a nova diretoria decidiu mudar-se em janeiro de 2013 e passou a realizar suas assembleias em um dos auditórios da APVE – Associação dos Pioneiros e Veteranos da Embraer, localizada na Rua Cândido Marciano Leite, 88 – Vila Bethânia, onde permaneceria até o mês de maio de 2014.
+
+Após as assembleias, a Academia, em parceria com a APVE, promovia saraus dançantes.
+
+A TERCEIRA SEDE PROVISÓRIA
+
+Na Assembleia do mês de junho de 2014, decidiu-se pela mudança da sede provisória para o auditório do Laboratório Oswaldo Cruz, onde também se instalou o acervo da Academia, em sala própria, na Praça Cândida Maria César Sawaya Giana, 128 – Jardim Nova América – São José dos Campos.
+
+A QUARTA SEDE PROVISÓRIA
+
+Desde maio de 2022, decidiu-se pela mudança da sede provisória para o auditório da Biblioteca Pública Cassiano Ricardo, na rua quinze de novembro, 99, Centro, São José dos Campos.
+
+O ESTATUTO
+
+O Estatuto, salvaguarda maior dos princípios preconizados e que norteiam os objetivos pelos quais a Academia foi fundada, teve seu formato organizado pelo doutor Luiz Wagner Outeiro Hernandes, Diretor do Departamento Jurídico da Fundação Cultural. com a colaboração do jornalista Júlio Ottoboni, curador da 44ª Semana Cassiano Ricardo, realizada em outubro de 2010.
+No decorrer das atividades da Academia, fizeram-se necessárias adequações em função de experiências vividas e de orientações ditadas pelo 1º Oficial de Registro Civil de Pessoa Jurídica de São José dos Campos – SP e adaptação às disposições do Código Civil Brasileiro instituído pela Lei nº 10.406 de 10 de janeiro de 2002. O Estatuto foi protocolizado em Pessoa Jurídica sob o nº 43.808 em 3/2/2016, registrado em microfilme sob o nº 31.257 em 12/2/2016 e averbado sob o nº AV.02-25939-PJ, no 1º Oficial de Registro de Imóveis, Títulos e Documentos e Civil de Pessoa Jurídica – São José dos Campos.
+No Cadastro Nacional da Pessoa Jurídica – CNPJ – a Academia recebeu o nº 18.776.165/0001-15 em 9/8/2013, como associação privada, com atividades de organização associativa ligada à cultura e à arte.
+
+Participaram desse processo os acadêmicos Wilson Roberto de Carvalho de Almeida (cadeira 12), presidente da Academia; Augusto Dias (cadeira 14), diretor administrativo e Rodrigo Cabrera (cadeira 21), acadêmico, sendo os dois últimos também na condição de advogados.
+
+Dos trabalhos de finalização e registro final, participou também o acadêmico Héctor Enrique Giana (cadeira 27), presidente do biênio 2016/2018.
+
+O Estatuto foi protocolizado em Pessoa Jurídica sob o nº 43.808 em 3/2/2016, registrado em microfilme sob o nº 31.257 em 12/2/2016 e averbado sob o nº AV.02-25939-PJ, no 1º Oficial de Registro de Imóveis, Títulos e Documentos e Civil de Pessoa Jurídica – São José dos Campos.
+
+No Cadastro Nacional da Pessoa Jurídica – CNPJ – a Academia recebeu o nº 18.776.165/0001-15 em 9/8/2013, como associação privada, com atividades de organização associativa ligada à cultura e à arte.
+
+17/3/2014 – CERIMÔNIA DE POSSE DE NOVOS ACADÊMICOS
+
+Devido a alterações estatutárias, à saída de acadêmicos e à necessidade de se aumentar a força de trabalho operacional e literária, a Assembleia decidiu aumentar o número de imortais de 20 para 30.
+
+Em 2013 a Academia tinha a seguinte constituição:
+
+Cadeira 01 – Júlio Ottoboni
+
+Cadeira 02 – Mário Ottoboni
+
+Cadeira 03 – Silvio Marques Neto
+
+Cadeira 04 – Luiz Paulo Costa
+
+Cadeira 05 – Suely Souza Lima
+
+Cadeira 06 – Edmundo de Carvalho
+
+Cadeira 07 – Christina Hernandes
+
+Cadeira 08 – Dyrce Araújo
+
+Cadeira 09 – Myrthes Mazza Masiero
+
+Cadeira 10 – Braga Barros
+
+Cadeira 11 – Ozires Silva
+
+Cadeira 12 – Wilson Roberto de Carvalho de Almeida
+
+Cadeira 13 – vaga* (a acadêmica Zenilda Lua demitiu-se)
+
+Cadeira 14 – Augusto Dias
+
+Cadeira 15 – Alberto Simões
+
+Cadeira 16 – Paulo Roxo Barja
+
+Cadeira 17 – Marco Antônio Vitti
+
+Cadeira 18 – Rita Elisa Seda
+
+Cadeira 19 – Reinaldo Rodrigues
+
+Cadeira 20 – Daniel Pedrosa
+
+Em Cerimônia de Posse de Novos Acadêmicos realizada na Câmara Municipal de São José dos Campos em 17/3/2014, foram empossados:
+
+Cadeira 21 – Rodrigo Cabrera Gonzales
+
+– Patrono: Nelson Rodrigues
+
+Cadeira 22 – Neide Pereira Pinto
+
+– Patrona: Francisca Júlia
+
+Cadeira 23 – Leandro Reis
+
+– Patrono: Marcos Rey
+
+Cadeira 24 – Daniella Peneluppi
+
+– Patrona: Clarice Lispector
+
+Cadeira 25 – Juliana Velonessi
+
+– Patrona: Rute Rocha
+
+Cadeira 26 – Stefânia Andrade
+
+– Patrono: Pedro Bandeira
+
+Cadeira 27 – Héctor Enrique Giana
+
+– Patrono: Huberto Rodhen
+
+Ao final, após o discurso de cada acadêmico, o presidente fez o investimento na posse:
+
+“Eu, Wilson Roberto de Carvalho de Almeida, presidente, em pleno exercício de minhas atribuições, os declaro empossados como membros efetivos da Academia Joseense de Letras.”
+Na mesma Cerimônia, recebeu seu Diploma de Primeiro Presidente da Academia Joseense de Letras – in memoriam – o professor Domingos de Macedo Custódio, representado por sua neta, Priscila Vidal.
+Também foram homenageados com o laurel PATRIMÔNIO HUMANO:
+Paulo Locatelli, presidente do Clube de Joseenses e Amigos, que apoiou a reativação da Academia Joseense de Letras.
+Vereador Walter Hayashi, criador da Bienal do Livro e que ajudou no processo de reativação da Academia Joseense de Letras.
+Os novos acadêmicos foram homenageados com o canto lírico de Jorge Zarur Júnior e com a pianista Clara Zarur.
+As bandeiras oficiais hasteadas foram guardadas pelos atiradores do Tiro de Guerra de São José dos Campos.
+
+18/5/2015 – NOVOS ACADÊMICOS TOMAM POSSE
+
+Para completar o número de 30 imortais, conforme determinado pelo Estatuto, 4 novos escritores foram empossados em Cerimônia Solene realizada na Câmara Municipal em 18/5/2015:
+
+Cadeira 13 – Amilton Maciel Monteiro
+
+– Patrono: Manuel Bandeira
+
+* cadeira anteriormente ocupada por Zenilda Lua
+
+Cadeira 28 – Maria Domitilla de Jesus Hóstia
+
+– patrona: Madre Maria Teresa de Jesus Eucarístico
+
+Cadeira 29 – Mirian Menezes
+
+– Patrono: Machado de Assis
+
+Cadeira 30 – Sandro Cuesta
+
+– Patrono: Arnaldo Antunes
+
+
+Ao final, o presidente da Academia Joseense de Letras, Wilson Roberto de Carvalho de Almeida, fez o investimento na posse:
+
+“Eu, Wilson Roberto de Carvalho de Almeida, presidente em pleno exercício de minhas atribuições, os declaro empossados como membros efetivos da Academia Joseense de Letras.”
+
+
+8/5/2015 – Atrás (da esquerda para a direita) Luiz Paulo Costa – Suely Souza Lima- Myrhes Mazza Masiero – Rita Elisa Seda – Daniel Pedrosa – Rodrigo Cabrera Gonzales – Neide Pereira Pinto – Christina Hernandes – Augusto Dias.
+
+Na frente: Leandro Reis – Daniella Peneluppi – Stefânia Andrade – Amilton Maciel Monteiro – Maria Donitilla de Jesus Hóstia – Miriam Menezes – Sandro Cuesta – Wilson Roberto de Carvalho de Almeida – Héctor Enrique Giana
+
+A Academia entregou o laurel PATRIMÔNIO HUMANO para:
+Professora Maria de Fátima Manfredini, ex-secretária de educação, ex-presidente da Fundação Cultural Cassiano Ricardo e Coordenadora de Cultura da Universidade do Vale do Paraiba;
+Engenheiro Vitor Chuster, ex-Diretor do Patrimônio Histórico da Fundação Cultural, ex-Presidente do Conselho Deliberativo do Clube de Campo Santa Rita e autor do livro “São José dos Micuins.”
+Os acadêmicos empossados foram homenageados com o canto lírico de Jorge Zarur Júnior e com a pianista Clara Zarur.
+Houve cerimônia de troca da guarda das bandeiras pelos atiradores do Tiro de Guerra de São José dos Campos.
+
+5/3/2015 – CERIMÔNIA DE INAUGURAÇÃO DA SEDE
+
+No dia 5 de março de 2015, na sede provisória da Academia Joseense de Letras, à Praça Cândida Maria César Sawaya Giana, 128 Jardim Nova América – São José dos Campos, local cedido pelo Laboratório Oswaldo Cruz, foi inaugurada a sala principal com identificação, móveis, logotipo e fotos antigas e atuais.
+
+
+Atrás: Rodrigo Cabrera – Sandro Cuesta – Leandro Reis – Héctor Enrique Giana – Wilson Roberto de Carvalho de Almeida – Daniel Pedrosa – Amilton Maciel Monteiro – Augusto Dias.
+
+Na frente: Christina Hernandes – Myrthes Mazza Masiero – Suely Souza Lima – Neide Pereira Pinto – Miriam Menezes.
+
+O presidente Héctor Enrique Giana dirigiu-se à Assembleia e aos convidados, manifestando a importância do momento.
+O cerimonial foi conduzido pelo acadêmico Augusto Dias.
+Houve coquetel, oferecido pelo Laboratório Oswaldo Cruz, após a Cerimônia.
+
+07/07/2016 – POSSE SOLENE DA DIRETORIA BIÊNIO 2016/2018
+
+Em solenidade realizada no dia 7/7/2016, na Sede da Academia Joseense de Letras, na Praça Cândida Maria César Sawaya Giana, 128 – Jardim Nova América, foi empossada a diretoria eleita para o biênio 2016/2018:
+
+ 
+
+Presidente – Héctor Enrique Giana (cadeira 27)
+Diretor Administrativo – Augusto Dias (cadeira 14)
+Diretor Cultural – Rodrigo Cabrera (cadeira 21)
+
+ 
+
+A cerimônia de posse foi conduzida pelo acadêmico Augusto Dias.
+Houve coquetel, oferecido pelo Laboratório Oswaldo Cruz, após a cerimônia.
+
+06/07/2017 – ASSEMBLEIA GERAL EXTRAORDINÁRIA
+
+Diplomação do Acadêmico Honorário Dr. Aldo Zonzini Filho.
+Posse da Diretora Cultural Christina Hernandes.
+
+Apresentação dos novos Acadêmicos:
+Cadeira 01: Francisco de Assis Rímoli
+Cadeira 15: Sila Antunes
+Cadeira 17: Sandra Guimarães
+Cadeira 18: Alcimar Alves de Souza Lima
+
+06/07/2017 – DIRETORIA EXECUTIVA BIÊNIO 2016/2018
+
+Em votação por aclamação realizada no dia 01/06/2017, na Sede da Academia Joseense de Letras, na Praça Cândida Maria César Sawaya Giana, 128 – Jardim Nova América, foi eleito o novo Diretor Cultural para o biênio 2016/2018, ficando a Diretoria Executiva constituída pelos acadêmicos:
+
+Presidente – Héctor Enrique Giana (cadeira 27)
+Diretor Administrativo – Augusto Dias (cadeira 14)
+Diretora Cultural – Christina Hernandes (cadeira 07)
+
+06/07/2017 – COMPOSIÇÃO DA ACADEMIA JOSEENSE DE LETRAS
+
+Cadeira 01 – Francisco de Assis Rímoli
+
+– Patrono: Cassiano Ricardo
+
+Cadeira 02 – Mário Ottoboni
+
+– Patrono: Paulo Setúbal
+
+Cadeira 03 – Silvio Marques Neto
+
+– Patrono: José Frederico Marques
+
+Cadeira 04 – Luiz Paulo Costa
+
+– Patrono: Francisco Pereira da Silva
+
+Cadeira 05 – Suely Souza Lima
+
+– Patrona: Cora Coralina
+
+Cadeira 06 – Edmundo de Carvalho
+
+– Patrono: Mário de Andrade
+
+Cadeira 07 – Christina Hernandes
+
+– Patrono: Monteiro Lobato
+
+Cadeira 08 – Dyrce Araújo
+
+– Patrono: Hilda Hilst
+
+Cadeira 09 – Myrthes Mazza Masiero
+
+– Patrono: Péricles Eugênio S. Ramos
+
+Cadeira 10 – Braga Barros
+
+– Patrono: Manoel de Barros
+
+Cadeira 11 – Ozires Silva
+
+– Patrono: Alberto Santos Dumont
+
+Cadeira 12 – Wilson Roberto de Carvalho de Almeida
+
+– Patrono: Vinicius de Moraes
+
+Cadeira 13 – Amilton Maciel Monteiro
+
+– Patrono: Manuel Bandeira
+
+Cadeira 14 – Augusto Dias
+
+– Patrono: Joaquim Nabuco
+
+Cadeira 1 5 – Sila Antunes
+
+– Patrono: Mário Filho
+
+Cadeira 16 – Paulo Roxo Barja
+
+– Patrono: Leandro Gomes de Barros
+
+Cadeira 17 – Sandra Guimarães
+
+– Patrono: Antonio Carlos Jobim
+
+Cadeira 18 – Alcimar Alves de Souza Lima
+
+– Patrono: Ruth Guimarães
+
+Cadeira 19 – Reinaldo Rodrigues de Sá
+
+– Patrono: Solano Trindade
+
+Cadeira 20 – Daniel Pedrosa
+
+– Patrono: Moacyr Scliar
+
+Cadeira 21 – Rodrigo Cabrera Gonzales
+
+– Patrono: Nelson Rodrigues
+
+Cadeira 22 – Neide Pereira Pinto
+
+– Patrona: Francisca Júlia
+
+Cadeira 23 – Leandro Reis
+
+– Patrono: Marcos Rey
+
+Cadeira 24 – Daniela Peneluppi
+
+– Patrona: Clarice Lispector
+
+Cadeira 25 – vaga (a acadêmica Juliana Velonessi demitiu-se)
+
+– Patrona: Ruth Rocha
+
+Cadeira 26 – Stefânia Andrade
+
+– Patrono: Manoel Bandeira
+
+Cadeira 27 – Héctor Enrique Giana
+
+– Patrono: Huberto Rodhen
+
+Cadeira 28 – Maria Domitilla de Jesus Hóstia
+
+– Patrona: Madre Maria Teresa de Jesus Eucarístico
+
+Cadeira 29 – Miriam Menezes
+
+– Patrono: Machado de Assis
+
+Cadeira 30 – Sandro Cuesta
+
+– Patrono: Arnaldo Antunes
+

@@ -9,3 +9,47 @@
   display: flex;
   flex-direction: column;
 }
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.date {
+    font-weight: bold;
+    color: #555;
+}
+.highlight {
+    font-weight: bold;
+}
+.indent {
+    margin-left: 40px;
+    font-style: italic;
+}
+.board-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+.board-list li {
+    margin-bottom: 5px;
+}
+.photo-caption {
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+/* .imagem{
+  justify-items: center;
+  align-items: center;
+} */
+.imagem{
+    display: flex;
+    justify-content: center;
+ }
+.imagem img {
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+
+
+}
