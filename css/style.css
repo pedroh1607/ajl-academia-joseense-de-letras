@@ -35,7 +35,7 @@ body {
 h1, h2, h3 {
     color: #0056b3;
 }
-section {
+section,div {
     margin-bottom: 30px;
     padding: 15px;
     border: 1px solid #ddd;

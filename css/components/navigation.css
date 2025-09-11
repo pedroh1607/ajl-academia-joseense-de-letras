@@ -26,6 +26,8 @@ nav .logo {
     font-size: 1.3rem;
     font-family: 'Georgia', serif;
     color: #ffe082;
+    background: transparent;
+    border: none;
     margin-bottom: 32px;
     letter-spacing: 1px;
     font-weight: bold;
@@ -37,6 +39,8 @@ nav .logo .slogan {
   margin-top: 8px;
   opacity: 0.7;
   font-style: italic;
+   background: transparent;
+    border: none;
 }
 main {
     margin-left: 240px;
@@ -103,6 +107,7 @@ nav .nav-section-title {
   margin: 18px 0 6px 0;
   letter-spacing: 1px;
   opacity: 0.8;
+  
 }
 @media (max-width: 700px) {
     nav {
